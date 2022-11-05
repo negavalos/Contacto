@@ -1,13 +1,13 @@
 export class StatusContact {
     name = '';
     surname = '';
-    email = '';
+    numero = '';
     status = false;
 
-    constructor(name, surname, email, status){
+    constructor(name, surname, numero, status){
         this.name = name;
         this.surname = surname;
-        this.email = email;
+        this.numero = numero;
         this.status = status;
     }
 }
